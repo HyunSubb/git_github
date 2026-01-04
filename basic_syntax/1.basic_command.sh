@@ -36,3 +36,9 @@ git log --all
 
 # 충돌 무시하고 강제 push
 git push origin main --force
+
+# 특정 커밋 ID로의 전환(소스코드를 과거의 특정 버전으로 되돌릴 때)
+git checkout 커밋ID
+
+# 다시 현재의 브랜치의 commit으로 되돌아올 때
+git checkout 현재브랜치명(main)
